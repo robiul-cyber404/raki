@@ -94,6 +94,7 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
+	
 def clear():
     os.system('clear')
     print(logo)
